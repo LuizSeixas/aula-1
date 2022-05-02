@@ -1,0 +1,155 @@
+* {
+    font-family: 'Lora', serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(137, 207, 226);
+}
+.header > li {
+    text-align: right;
+}
+
+.header>h1 {
+
+    padding: 20px;
+    text-align: center;
+}
+
+.header>img {
+    padding-top: 10px;
+    width: 200px;
+    border-radius: 15%;
+    filter: grayscale(1);
+    transition: 0.5s;
+    padding-bottom: 10px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 5px;    
+}
+
+img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.about>h2 {
+    padding: 10px;
+    font-size: 1, 25em;
+}
+
+.about>p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
+}
+
+p {
+    color: black;
+    padding: 10px;
+}
+
+.icone {
+    width: 40px;
+    margin-top: 3px;
+    border-radius: 30%;
+    filter: grayscale(1);
+    transition: 1s;
+    background-color: rgb(137, 207, 226);
+      
+}
+
+.negrito {
+    font-weight: 600;
+}
+
+.detalhes>p {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: justify;
+}
+
+.detalhes>h2 {
+    padding: 10px;
+    font-size: 1, 25em;
+}
+CSS
+ul {
+    margin: 0;
+    padding:0;
+}
+
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+ul {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #903;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 0px solid hsl(0, 0%, 0%); 
+    background: rgb(6, 70, 107);
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: rgb(137, 207, 226);
+    color: #000; 
+    border-color: #000;
+}
+
+
+
+.footer>p {
+    padding: 15px;
+    text-size-adjust: 2px;
+}
+.footer {
+    padding-top: 10px;
+}
